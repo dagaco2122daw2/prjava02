@@ -1,0 +1,28 @@
+Instruccions:
+1- git branch branca00
+   git checkout branca00
+   git status
+
+5- git checkout main
+   git status
+   git log main
+   git log main..branca00
+   
+7- git checkout branca00
+
+10b- git merge branca00
+
+12- git push
+    git status
+    
+14a- git push --set-upstream origin branca01
+
+
+Preguntes:
+6- No el podem veure ja que estem a main, mentre que els canvis els hem fet desde la branca00
+
+7- Ara si els podem veure, ja que estem a la branca correcte
+
+12c- Ja que el push l'hem fet desde main, i no la branca00
+
+14c- Esta a 1 commit de diferencia
